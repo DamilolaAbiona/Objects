@@ -1,3 +1,16 @@
+As Nigeria goes to the polls, here is an object representing some of the Presidential Candidates:
+
+const presidentialCandidates = {
+AAC: 'Omoyele Sowore',
+ACCORD: 'Christopher Imumolen',
+APC: 'Bola Ahmed Tinubu',
+LP: 'Peter Obi',
+NNPP: 'Rabiu Kwankwaso',
+PDP: 'Atiku Abubakar',
+}
+
+Using any of the enumeration methods taught in class (for…in or for..of), log out each of the presidential candidates in this format:
+’Omoyele Sowore is the presidential candidate of AAC’
 3.Clone the Object Using JSON.parse()Clone the Object Using Spread Syntax# Objects
 
 1. Using the constructor method, create an InstagramPost() constructor function that takes the properties below as arguments.
@@ -24,4 +37,17 @@
 - Clone the Object Using Object.assign()
 - Clone the Object Using Spread Syntax
 - Clone the Object Using JSON.parse()
-5. 
+
+5. As Nigeria goes to the polls, here is an object representing some of the Presidential Candidates:
+
+- const presidentialCandidates = {
+  AAC: 'Omoyele Sowore',
+  ACCORD: 'Christopher Imumolen',
+  APC: 'Bola Ahmed Tinubu',
+  LP: 'Peter Obi',
+  NNPP: 'Rabiu Kwankwaso',
+  PDP: 'Atiku Abubakar',
+  }
+
+- Using any of the enumeration methods taught in class (for…in or for..of), log out each of the presidential candidates in this format:
+  ’Omoyele Sowore is the presidential candidate of AAC’
