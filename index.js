@@ -15,6 +15,11 @@ function InstagramPost(authorHandle, content, link, numOfViews, numOfLikes ){
 // 2. Create 2 Instagram post objects from the constructor function you created above
 const simply__dharmy = new InstagramPost("simply__dharmy","Let love lead","<a href='https://instagram.com/simply__dharmy/' title='love Leads'>","11300 views",2000 )
 console.log(simply__dharmy)
-const peterson = new InstagramPost("peterson","Let love lead","<a href='https://instagram.com/peterson/Nigeria' title='NigeriaDecides'>","39800 views",8000 )
+const peterson = new InstagramPost("peterson","Vote Peter Obi","<a href='https://instagram.com/peterson/Nigeria' title='NigeriaDecides'>","39800 views",8000 )
 console.log(peterson)
+// 3. Musa Dawodu is a 19 years old Nigerian male who lives with his parents in Lekki, Lagos State. Recently, he wrote the JAMB exam and had the following scores in his combination:
+// ENG - 70
+// GOVT - 85
+// LIT - 82
+// CRK - 94
 
