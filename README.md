@@ -18,3 +18,5 @@
 
 * Using the factory method, implement a createPerson() factory function that takes name, age and location as arguments. Afterwards, create an object representing Musa from the factory function.
 * Also, implement a factory function createJambScores() that takes eng, govt, lit, crk as arguments. Then create an object representing Musa’s JAMB scores. Add the object as a property to Musa object you created above in (a) above
+
+4. What are the different ways you can clone an object? Give examples for each of them.

@@ -44,16 +44,15 @@ function createPerson(name, age, location) {
     location: location,
   };
 }
-const Musa = createPerson("Musa Dawodu", 19, "Lekki, Lagos")
-console.log(Musa)
+const Musa = createPerson("Musa Dawodu", 19, "Lekki, Lagos");
+console.log(Musa);
 function createJambScores(ENG, GOVT, LIT, CRK) {
-    return {
-        ENG: ENG,
-        GOVT: GOVT,
-        LIT: LIT,
-        CRK: CRK
-    }
-    
+  return {
+    ENG: ENG,
+    GOVT: GOVT,
+    LIT: LIT,
+    CRK: CRK,
+  };
 }
-Musa.jambscores = createJambScores(70,85, 82,94)
-console.log(Musa)
+Musa.jambscores = createJambScores(70, 85, 82, 94);
+console.log(Musa);
