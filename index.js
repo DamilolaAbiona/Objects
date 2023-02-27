@@ -112,3 +112,52 @@ clonePerson.name = 'Bolu';
 
 console.log(clonePerson2.name);
 console.log(person2.name);
+
+/*5. As Nigeria goes to the polls, here is an object representing some of the Presidential Candidates:
+
+- const presidentialCandidates = {
+  AAC: 'Omoyele Sowore',
+  ACCORD: 'Christopher Imumolen',
+  APC: 'Bola Ahmed Tinubu',
+  LP: 'Peter Obi',
+  NNPP: 'Rabiu Kwankwaso',
+  PDP: 'Atiku Abubakar',
+  }
+
+- Using any of the enumeration methods taught in class (for…in or for..of), log out each of the presidential candidates in this format:
+  ’Omoyele Sowore is the presidential candidate of AAC’ */
+
+  const presidentialCandidates = {
+  AAC: 'Omoyele Sowore',
+  ACCORD: 'Christopher Imumolen',
+  APC: 'Bola Ahmed Tinubu',
+  LP: 'Peter Obi',
+  NNPP: 'Rabiu Kwankwaso',
+  PDP: 'Atiku Abubakar',
+  }
+let text = "candidare";
+for (let AAC in presidentialCandidates) {
+ console.log(presidentialCandidates["AAC"] + "is a presidential candidate of AAC")
+
+}
+for (let ACCORD in presidentialCandidates) {
+ console.log(presidentialCandidates["ACCORD"] + "is a presidential candidate of ACCORD")
+
+}
+for (let APC in presidentialCandidates) {
+ console.log(presidentialCandidates["APC"] + "is a presidential candidate of APC")
+
+}
+for (let LP in presidentialCandidates) {
+ console.log(presidentialCandidates.LP + "is a presidential candidate of Labour Party")
+
+
+}
+for (let NNPP in presidentialCandidates) {
+ console.log(presidentialCandidates["NNPP"] + "is a presidential candidate of NNPP")
+
+}
+for (let PDP in presidentialCandidates) {
+ console.log(presidentialCandidates["PDP"] + "is a presidential candidate of PDP")
+
+}
