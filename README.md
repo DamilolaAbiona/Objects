@@ -1,4 +1,4 @@
-# Objects
+3.Clone the Object Using JSON.parse()Clone the Object Using Spread Syntax# Objects
 
 1. Using the constructor method, create an InstagramPost() constructor function that takes the properties below as arguments.
 
@@ -20,3 +20,8 @@
 * Also, implement a factory function createJambScores() that takes eng, govt, lit, crk as arguments. Then create an object representing Musa’s JAMB scores. Add the object as a property to Musa object you created above in (a) above
 
 4. What are the different ways you can clone an object? Give examples for each of them.
+
+- Clone the Object Using Object.assign()
+- Clone the Object Using Spread Syntax
+- Clone the Object Using JSON.parse()
+5. 

@@ -56,3 +56,59 @@ function createJambScores(ENG, GOVT, LIT, CRK) {
 }
 Musa.jambscores = createJambScores(70, 85, 82, 94);
 console.log(Musa);
+// 4. What are the different ways you can clone an object? Give examples for each of them.
+// 1. Clone the Object Using Object.assign()
+// program to clone the object
+
+// declaring object
+const person = {
+  name: "John",
+  age: 21,
+};
+
+// cloning the object
+const clonePerson = Object.assign({}, person);
+
+console.log(clonePerson);
+
+// changing the value of clonePerson
+clonePerson.name = "Peter";
+
+console.log(clonePerson.name);
+console.log(person.name);
+//2. Clone the Object Using Spread Syntax
+// program to clone the object
+// declaring object
+const Dperson = {
+    name: 'Hannah',
+    age: 26,
+}
+
+// cloning the object
+const clonePersonn = { ... Dperson}
+
+console.log(clonePersonn);
+
+// changing the value of clonePerson
+clonePersonn.name = 'Shola';
+
+console.log(clonePersonn.name);
+console.log(Dperson.name);
+// 3.Clone the Object Using JSON.parse()
+
+// declaring object
+const person2 = {
+    name: 'Funke',
+    age: 11,
+}
+
+// cloning the object
+const clonePerson2 = JSON.parse(JSON.stringify(person2));
+
+console.log(clonePerson2);
+
+// changing the value of clonePerson
+clonePerson.name = 'Bolu';
+
+console.log(clonePerson2.name);
+console.log(person2.name);
