@@ -7,3 +7,5 @@
 - An image link posted by the author of the post
 - Number of views,
 - Number of likes,
+
+2. Create 2 Instagram post objects from the constructor function you created above
