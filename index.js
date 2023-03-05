@@ -135,29 +135,8 @@ console.log(person2.name);
   NNPP: 'Rabiu Kwankwaso',
   PDP: 'Atiku Abubakar',
   }
-let text = "candidare";
-for (let AAC in presidentialCandidates) {
- console.log(presidentialCandidates["AAC"] + "is a presidential candidate of AAC")
-
-}
-for (let ACCORD in presidentialCandidates) {
- console.log(presidentialCandidates["ACCORD"] + "is a presidential candidate of ACCORD")
-
-}
-for (let APC in presidentialCandidates) {
- console.log(presidentialCandidates["APC"] + "is a presidential candidate of APC")
-
-}
-for (let LP in presidentialCandidates) {
- console.log(presidentialCandidates.LP + "is a presidential candidate of Labour Party")
-
-
-}
-for (let NNPP in presidentialCandidates) {
- console.log(presidentialCandidates["NNPP"] + "is a presidential candidate of NNPP")
-
-}
-for (let PDP in presidentialCandidates) {
- console.log(presidentialCandidates["PDP"] + "is a presidential candidate of PDP")
-
+for (let property in presidentialCandidates) {
+  
+ console.log(presidentialCandidates[property] + "is a presidential candidate of ");
+ console.log(property)
 }
